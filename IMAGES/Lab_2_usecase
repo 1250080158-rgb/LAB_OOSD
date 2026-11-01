@@ -1,0 +1,53 @@
+<mxGraphModel dx="1000" dy="800" grid="1" gridSize="10" page="1" pageWidth="827" pageHeight="1169">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+
+    <!-- Khung hệ thống -->
+    <mxCell id="sys" value="Hệ thống Thư viện Trực tuyến (Intranet Library System)" style="rounded=1;arcSize=1;verticalAlign=top;fontStyle=1;fillColor=none;html=1;" vertex="1" parent="1"><mxGeometry x="187" y="5" width="520" height="1345" as="geometry"/></mxCell>
+
+    <!-- Các package -->
+    <mxCell id="p1" value="Quản lý Tài khoản &amp; Xác thực" style="rounded=1;arcSize=2;verticalAlign=top;fontStyle=1;fillColor=none;html=1;" vertex="1" parent="1"><mxGeometry x="275" y="57" width="312" height="112" as="geometry"/></mxCell>
+    <mxCell id="p2" value="Nghiệp vụ Độc giả" style="rounded=1;arcSize=2;verticalAlign=top;fontStyle=1;fillColor=none;html=1;" vertex="1" parent="1"><mxGeometry x="280" y="197" width="332" height="514" as="geometry"/></mxCell>
+    <mxCell id="p3" value="Nghiệp vụ Quản trị (Thủ thư)" style="rounded=1;arcSize=2;verticalAlign=top;fontStyle=1;fillColor=none;html=1;" vertex="1" parent="1"><mxGeometry x="273" y="739" width="346" height="427" as="geometry"/></mxCell>
+    <mxCell id="p4" value="Tiến trình nền (Background Service)" style="rounded=1;arcSize=2;verticalAlign=top;fontStyle=1;fillColor=none;html=1;" vertex="1" parent="1"><mxGeometry x="273" y="1193" width="346" height="125" as="geometry"/></mxCell>
+
+    <!-- Use cases -->
+    <mxCell id="UC01" value="UC01: Đăng ký / Đăng nhập" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="320" y="97" width="250" height="56" as="geometry"/></mxCell>
+    <mxCell id="UC06" value="UC06: Đặt mua tài liệu mới" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="323" y="237" width="240" height="54" as="geometry"/></mxCell>
+    <mxCell id="UC05" value="UC05: Đăng ký mượn sách vật lý&lt;br&gt;(Kiểm tra tồn kho)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="317" y="330" width="270" height="60" as="geometry"/></mxCell>
+    <mxCell id="UC04" value="UC04: Tải tài liệu điện tử&lt;br&gt;(Yêu cầu Mã thẻ)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="315" y="434" width="260" height="64" as="geometry"/></mxCell>
+    <mxCell id="UC02" value="UC02: Tra cứu &amp; Tìm kiếm tài liệu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="300" y="536" width="290" height="54" as="geometry"/></mxCell>
+    <mxCell id="UC03" value="UC03: Đọc tài liệu trực tuyến" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="318" y="636" width="250" height="54" as="geometry"/></mxCell>
+    <mxCell id="UC09" value="UC09: Cập nhật danh mục tài liệu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="300" y="781" width="290" height="54" as="geometry"/></mxCell>
+    <mxCell id="UC10" value="UC10: Duyệt yêu cầu đặt mua" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="320" y="885" width="250" height="54" as="geometry"/></mxCell>
+    <mxCell id="UC07" value="UC07: Quản lý mượn - trả sách" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="310" y="983" width="270" height="54" as="geometry"/></mxCell>
+    <mxCell id="UC08" value="UC08: Tra cứu trạng thái &amp; Quá hạn" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="290" y="1085" width="310" height="54" as="geometry"/></mxCell>
+    <mxCell id="UC11" value="UC11: Gửi email nhắc hạn tự động&lt;br&gt;(Trước 3 ngày)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="295" y="1232" width="300" height="60" as="geometry"/></mxCell>
+
+    <!-- Actors -->
+    <mxCell id="Reader" value="Độc giả&lt;br&gt;(Reader)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1"><mxGeometry x="70" y="360" width="30" height="60" as="geometry"/></mxCell>
+    <mxCell id="Librarian" value="Thủ thư&lt;br&gt;(Librarian)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1"><mxGeometry x="75" y="757" width="30" height="60" as="geometry"/></mxCell>
+    <mxCell id="Scheduler" value="Hệ thống tự động&lt;br&gt;(System Scheduler)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1"><mxGeometry x="75" y="1212" width="30" height="60" as="geometry"/></mxCell>
+
+    <!-- Reader -> UC -->
+    <mxCell id="e1" style="curved=1;endArrow=open;endFill=0;html=1;" edge="1" parent="1" source="Reader" target="UC01"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e2" style="curved=1;endArrow=open;endFill=0;html=1;" edge="1" parent="1" source="Reader" target="UC06"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e3" style="curved=1;endArrow=open;endFill=0;html=1;" edge="1" parent="1" source="Reader" target="UC05"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e4" style="curved=1;endArrow=open;endFill=0;html=1;" edge="1" parent="1" source="Reader" target="UC04"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e5" style="curved=1;endArrow=open;endFill=0;html=1;" edge="1" parent="1" source="Reader" target="UC02"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e6" style="curved=1;endArrow=open;endFill=0;html=1;" edge="1" parent="1" source="Reader" target="UC03"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- Librarian -> UC -->
+    <mxCell id="e7" style="curved=1;endArrow=open;endFill=0;html=1;" edge="1" parent="1" source="Librarian" target="UC04"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e8" style="curved=1;endArrow=open;endFill=0;html=1;" edge="1" parent="1" source="Librarian" target="UC02"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e9" style="curved=1;endArrow=open;endFill=0;html=1;" edge="1" parent="1" source="Librarian" target="UC03"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e10" style="curved=1;endArrow=open;endFill=0;html=1;" edge="1" parent="1" source="Librarian" target="UC09"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e11" style="curved=1;endArrow=open;endFill=0;html=1;" edge="1" parent="1" source="Librarian" target="UC10"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e12" style="curved=1;endArrow=open;endFill=0;html=1;" edge="1" parent="1" source="Librarian" target="UC07"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e13" style="curved=1;endArrow=open;endFill=0;html=1;" edge="1" parent="1" source="Librarian" target="UC08"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- Scheduler -> UC11 -->
+    <mxCell id="e14" style="endArrow=open;endFill=0;html=1;" edge="1" parent="1" source="Scheduler" target="UC11"><mxGeometry relative="1" as="geometry"/></mxCell>
+  </root>
+</mxGraphModel>
