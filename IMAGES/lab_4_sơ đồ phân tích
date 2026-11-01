@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="class-diagram" name="Class Diagram">
+    <mxGraphModel dx="1000" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="719" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ================= KhachHang ================= -->
+        <mxCell id="kh" value="KhachHang" style="swimlane;whiteSpace=wrap;html=1;startSize=48;fillColor=none;fontSize=16;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="82" width="328" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="kh_c" value="C" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2D5A3D;strokeColor=#8FD19E;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="kh">
+          <mxGeometry x="86" y="9" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="kh_attr" value="HoTen, CMND, TenDangNhap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=8;fontSize=15;" vertex="1" parent="kh">
+          <mxGeometry y="48" width="328" height="38" as="geometry" />
+        </mxCell>
+
+        <!-- ================= GioHang ================= -->
+        <mxCell id="gh" value="GioHang" style="swimlane;whiteSpace=wrap;html=1;startSize=47;fillColor=none;fontSize=16;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="101" y="317" width="140" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="gh_c" value="C" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2D5A3D;strokeColor=#8FD19E;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="gh">
+          <mxGeometry x="6" y="8" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="gh_attr" value="TongTien" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=10;fontSize=15;" vertex="1" parent="gh">
+          <mxGeometry y="47" width="140" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ================= PhieuDatHang ================= -->
+        <mxCell id="pdh" value="PhieuDatHang" style="swimlane;whiteSpace=wrap;html=1;startSize=47;fillColor=none;fontSize=16;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="329" y="317" width="336" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="pdh_c" value="C" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2D5A3D;strokeColor=#8FD19E;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="pdh">
+          <mxGeometry x="76" y="8" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="pdh_attr" value="PhiGiaoHang, TongThanhToan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=10;fontSize=15;" vertex="1" parent="pdh">
+          <mxGeometry y="47" width="336" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ================= SanPham ================= -->
+        <mxCell id="sp" value="SanPham" style="swimlane;whiteSpace=wrap;html=1;startSize=48;fillColor=none;fontSize=16;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="124" y="548" width="313" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="sp_c" value="C" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2D5A3D;strokeColor=#8FD19E;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="sp">
+          <mxGeometry x="90" y="8" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="sp_attr" value="GiaBanHienHanh, TinhTrang" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=12;fontSize=15;" vertex="1" parent="sp">
+          <mxGeometry y="48" width="313" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ================= TheTinDung ================= -->
+        <mxCell id="ttd" value="TheTinDung" style="swimlane;whiteSpace=wrap;html=1;startSize=48;fillColor=none;fontSize=16;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="491" y="548" width="177" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="ttd_c" value="C" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2D5A3D;strokeColor=#8FD19E;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="ttd">
+          <mxGeometry x="8" y="8" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ttd_attr" value="SoThe, CSV" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=10;fontSize=15;" vertex="1" parent="ttd">
+          <mxGeometry y="48" width="177" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ================= Quan he ================= -->
+        <mxCell id="e_kh_gh" value="" style="endArrow=none;html=1;curved=1;exitX=0.36;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kh" target="gh">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_kh_pdh" value="" style="endArrow=none;html=1;curved=1;exitX=0.567;exitY=1;exitDx=0;exitDy=0;entryX=0.33;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kh" target="pdh">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_gh_sp" value="ChiTietGio" style="endArrow=none;startArrow=diamond;startFill=1;startSize=14;html=1;curved=1;fontSize=12;labelBackgroundColor=default;exitX=0.53;exitY=1;exitDx=0;exitDy=0;entryX=0.38;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gh" target="sp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pdh_sp" value="ChiTietDon (Snapshot)" style="endArrow=none;startArrow=diamond;startFill=1;startSize=14;html=1;fontSize=12;labelBackgroundColor=default;exitX=0.36;exitY=1;exitDx=0;exitDy=0;entryX=0.63;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pdh" target="sp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pdh_ttd" value="ThanhToan" style="endArrow=none;html=1;curved=1;fontSize=12;labelBackgroundColor=default;exitX=0.57;exitY=1;exitDx=0;exitDy=0;entryX=0.45;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pdh" target="ttd">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ================= Bo so luong (multiplicity) ================= -->
+        <mxCell id="n1" value="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=15;fontColor=#99DDFF;" vertex="1" parent="1">
+          <mxGeometry x="260" y="176" width="26" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="0..1" style="text;html=1;align=center;verticalAlign=middle;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="124" y="284" width="50" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="0..*" style="text;html=1;align=center;verticalAlign=middle;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="452" y="284" width="50" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="148" y="414" width="26" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="1..*" style="text;html=1;align=center;verticalAlign=middle;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="238" y="516" width="40" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="472" y="414" width="26" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="557" y="518" width="26" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
