@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="state-diagram" name="GioHang - DonHang">
+    <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="967" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ================= GioHang ================= -->
+        <mxCell id="gh" value="GioHang" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=none;fontSize=14;fontStyle=0;collapsible=1;" vertex="1" parent="1">
+          <mxGeometry x="58" y="152" width="325" height="625" as="geometry" />
+        </mxCell>
+        <mxCell id="gh_start" value="" style="ellipse;html=1;fillColor=#CCCCCC;strokeColor=#CCCCCC;" vertex="1" parent="gh">
+          <mxGeometry x="108" y="65" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="gh_dangchon" value="DangChon" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fontStyle=1;" vertex="1" parent="gh">
+          <mxGeometry x="57" y="182" width="128" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="gh_dangthanhtoan" value="DangThanhToan" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fontStyle=1;" vertex="1" parent="gh">
+          <mxGeometry x="86" y="393" width="184" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="gh_end" value="" style="ellipse;html=1;shape=endState;fillColor=#CCCCCC;" vertex="1" parent="gh">
+          <mxGeometry x="163" y="570" width="30" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="gh_e1" value="" style="endArrow=open;endFill=0;html=1;fontSize=11;rounded=0;" edge="1" parent="gh" source="gh_start" target="gh_dangchon">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gh_e2" value="Tính tiền" style="endArrow=open;endFill=0;html=1;fontSize=11;rounded=0;labelBackgroundColor=none;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gh" source="gh_dangchon" target="gh_dangthanhtoan">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gh_e3" value="Thanh toán lỗi" style="endArrow=open;endFill=0;html=1;fontSize=11;rounded=0;labelBackgroundColor=none;exitX=0.6;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="gh" source="gh_dangthanhtoan" target="gh_dangchon">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gh_e4" value="Thành công (Xóa giỏ)" style="endArrow=open;endFill=0;html=1;fontSize=11;rounded=0;labelBackgroundColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="gh" source="gh_dangthanhtoan" target="gh_end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ================= DonHang ================= -->
+        <mxCell id="dh" value="DonHang" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=none;fontSize=14;fontStyle=0;collapsible=1;" vertex="1" parent="1">
+          <mxGeometry x="432" y="30" width="382" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="dh_start" value="" style="ellipse;html=1;fillColor=#CCCCCC;strokeColor=#CCCCCC;" vertex="1" parent="dh">
+          <mxGeometry x="167" y="64" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dh_moi" value="Moi" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fontStyle=1;" vertex="1" parent="dh">
+          <mxGeometry x="148" y="198" width="72" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="dh_dathanhtoan" value="DaThanhToan" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fontStyle=1;" vertex="1" parent="dh">
+          <mxGeometry x="67" y="400" width="162" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="dh_huy" value="Huy" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fontStyle=1;" vertex="1" parent="dh">
+          <mxGeometry x="256" y="510" width="72" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="dh_dagiaohang" value="DaGiaoHang" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fontStyle=1;" vertex="1" parent="dh">
+          <mxGeometry x="55" y="627" width="148" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="dh_end" value="" style="ellipse;html=1;shape=endState;fillColor=#CCCCCC;" vertex="1" parent="dh">
+          <mxGeometry x="118" y="817" width="30" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dh_e1" value="Tạo đơn" style="endArrow=open;endFill=0;html=1;fontSize=11;rounded=0;labelBackgroundColor=none;" edge="1" parent="dh" source="dh_start" target="dh_moi">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dh_e2" value="Xác nhận thẻ OK" style="endArrow=open;endFill=0;html=1;fontSize=11;rounded=0;labelBackgroundColor=none;exitX=0.4;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dh" source="dh_moi" target="dh_dathanhtoan">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dh_e3" value="Lỗi / Khách hủy" style="endArrow=open;endFill=0;html=1;fontSize=11;rounded=0;labelBackgroundColor=none;exitX=0.7;exitY=1;exitDx=0;exitDy=0;entryX=0.35;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dh" source="dh_moi" target="dh_huy">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dh_e4" value="Hoàn tất" style="endArrow=open;endFill=0;html=1;fontSize=11;rounded=0;labelBackgroundColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dh" source="dh_dathanhtoan" target="dh_dagiaohang">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dh_e5" value="" style="endArrow=open;endFill=0;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dh" source="dh_dagiaohang" target="dh_end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dh_e6" value="" style="endArrow=open;endFill=0;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dh" source="dh_huy" target="dh_end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
