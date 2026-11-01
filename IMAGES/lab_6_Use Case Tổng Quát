@@ -1,0 +1,55 @@
+<mxGraphModel dx="1200" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+
+    <mxCell id="sys" value="Hệ thống Quản lý Hồ sơ Bệnh án" style="rounded=1;arcSize=1;verticalAlign=top;fontStyle=1;fontSize=13;fillColor=none;html=1;" vertex="1" parent="1"><mxGeometry x="345" y="10" width="412" height="1260" as="geometry"/></mxCell>
+
+    <mxCell id="U1" value="Yêu cầu xét nghiệm" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="420" y="62" width="260" height="58" as="geometry"/></mxCell>
+    <mxCell id="U2" value="Kê toa thuốc" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="452" y="170" width="195" height="52" as="geometry"/></mxCell>
+    <mxCell id="U3" value="Khám bệnh" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="459" y="270" width="180" height="52" as="geometry"/></mxCell>
+    <mxCell id="U4" value="Tra cứu hồ sơ bệnh án" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="410" y="375" width="280" height="58" as="geometry"/></mxCell>
+    <mxCell id="U5" value="Cấp hồ sơ bệnh án" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="427" y="489" width="248" height="56" as="geometry"/></mxCell>
+    <mxCell id="U6" value="Đóng lệ phí hàng năm" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="412" y="598" width="258" height="58" as="geometry"/></mxCell>
+    <mxCell id="U7" value="Đăng ký khám bệnh" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="421" y="712" width="258" height="58" as="geometry"/></mxCell>
+    <mxCell id="U8" value="Thanh toán viện phí" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="420" y="825" width="258" height="58" as="geometry"/></mxCell>
+    <mxCell id="U9" value="Đặt lịch khám định kỳ" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="414" y="940" width="272" height="58" as="geometry"/></mxCell>
+    <mxCell id="U10" value="Ghi nhận thông tin sau điều trị" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="372" y="1050" width="356" height="62" as="geometry"/></mxCell>
+    <mxCell id="U11" value="Thực hiện xét nghiệm" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="407" y="1185" width="282" height="58" as="geometry"/></mxCell>
+
+    <mxCell id="A1" value="Bác Sĩ" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="140" y="190" width="70" height="90" as="geometry"/></mxCell>
+    <mxCell id="A2" value="NV Tiếp Nhận" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="140" y="492" width="70" height="90" as="geometry"/></mxCell>
+    <mxCell id="A3" value="Bệnh Nhân" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="140" y="662" width="70" height="90" as="geometry"/></mxCell>
+    <mxCell id="A4" value="NV Thu Ngân" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="140" y="832" width="70" height="90" as="geometry"/></mxCell>
+    <mxCell id="A5" value="NV CS Khách Hàng" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="140" y="1004" width="70" height="90" as="geometry"/></mxCell>
+    <mxCell id="A6" value="NV Xét Nghiệm" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="140" y="1175" width="70" height="90" as="geometry"/></mxCell>
+
+    <!-- Bác Sĩ -->
+    <mxCell id="b1" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A1" target="U1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="b2" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A1" target="U2"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="b3" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A1" target="U3"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="b4" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A1" target="U4"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- NV Tiếp Nhận -->
+    <mxCell id="t1" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A2" target="U5"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="t2" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A2" target="U6"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="t3" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A2" target="U7"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- Bệnh Nhân -->
+    <mxCell id="n1" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A3" target="U4"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="n2" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A3" target="U6"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="n3" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A3" target="U7"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="n4" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A3" target="U8"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="n5" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A3" target="U9"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- NV Thu Ngân -->
+    <mxCell id="c1" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A4" target="U8"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- NV CS Khách Hàng -->
+    <mxCell id="k1" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A5" target="U9"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="k2" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A5" target="U10"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- NV Xét Nghiệm -->
+    <mxCell id="x1" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A6" target="U11"><mxGeometry relative="1" as="geometry"/></mxCell>
+  </root>
+</mxGraphModel>
