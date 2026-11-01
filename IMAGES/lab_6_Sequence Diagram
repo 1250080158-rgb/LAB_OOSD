@@ -1,0 +1,107 @@
+<mxGraphModel dx="1400" dy="1300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1300" math="0" shadow="0">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+
+    <!-- Đối tượng phía trên -->
+    <mxCell id="B1" value="Giao diện&lt;br&gt;Khám Bệnh" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="260" y="55" width="66" height="30" as="geometry"/></mxCell>
+    <mxCell id="B2" value="PhieuKhamBenh" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="494" y="62" width="94" height="24" as="geometry"/></mxCell>
+    <mxCell id="B3" value="ToaThuoc" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="595" y="62" width="62" height="24" as="geometry"/></mxCell>
+    <mxCell id="B4" value="ChiTietToaThuoc" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="662" y="62" width="96" height="24" as="geometry"/></mxCell>
+    <mxCell id="B5" value="Thuoc" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="763" y="62" width="44" height="24" as="geometry"/></mxCell>
+    <mxCell id="B6" value="HoSoBenhAn" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="811" y="62" width="78" height="24" as="geometry"/></mxCell>
+    <mxCell id="AC1" value="Bác Sĩ" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=10;" vertex="1" parent="1"><mxGeometry x="77" y="30" width="26" height="40" as="geometry"/></mxCell>
+
+    <!-- Đối tượng phía dưới -->
+    <mxCell id="C1" value="Giao diện&lt;br&gt;Khám Bệnh" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="260" y="1155" width="66" height="30" as="geometry"/></mxCell>
+    <mxCell id="C2" value="PhieuKhamBenh" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="494" y="1155" width="94" height="24" as="geometry"/></mxCell>
+    <mxCell id="C3" value="ToaThuoc" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="595" y="1155" width="62" height="24" as="geometry"/></mxCell>
+    <mxCell id="C4" value="ChiTietToaThuoc" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="662" y="1155" width="96" height="24" as="geometry"/></mxCell>
+    <mxCell id="C5" value="Thuoc" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="763" y="1155" width="44" height="24" as="geometry"/></mxCell>
+    <mxCell id="C6" value="HoSoBenhAn" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f1f1f1;" vertex="1" parent="1"><mxGeometry x="811" y="1155" width="78" height="24" as="geometry"/></mxCell>
+    <mxCell id="AC2" value="Bác Sĩ" style="shape=umlActor;verticalLabelPosition=top;verticalAlign=bottom;html=1;outlineConnect=0;fontSize=10;" vertex="1" parent="1"><mxGeometry x="77" y="1165" width="26" height="40" as="geometry"/></mxCell>
+
+    <!-- Đường sống (lifeline) -->
+    <mxCell id="LL0" style="endArrow=none;dashed=1;html=1;strokeColor=#888888;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="90" y="75" as="sourcePoint"/><mxPoint x="90" y="1165" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="LL1" style="endArrow=none;dashed=1;html=1;strokeColor=#888888;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="293" y="85" as="sourcePoint"/><mxPoint x="293" y="1155" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="LL2" style="endArrow=none;dashed=1;html=1;strokeColor=#888888;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="541" y="86" as="sourcePoint"/><mxPoint x="541" y="1155" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="LL3" style="endArrow=none;dashed=1;html=1;strokeColor=#888888;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="626" y="86" as="sourcePoint"/><mxPoint x="626" y="1155" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="LL4" style="endArrow=none;dashed=1;html=1;strokeColor=#888888;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="710" y="86" as="sourcePoint"/><mxPoint x="710" y="1155" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="LL5" style="endArrow=none;dashed=1;html=1;strokeColor=#888888;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="785" y="86" as="sourcePoint"/><mxPoint x="785" y="1155" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="LL6" style="endArrow=none;dashed=1;html=1;strokeColor=#888888;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="850" y="86" as="sourcePoint"/><mxPoint x="850" y="1155" as="targetPoint"/></mxGeometry></mxCell>
+
+    <!-- Khung loop / opt -->
+    <mxCell id="FL" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=18;fontSize=9;fontStyle=1;fillColor=none;" vertex="1" parent="1"><mxGeometry x="80" y="452" width="716" height="211" as="geometry"/></mxCell>
+    <mxCell id="FLt" value="[bác sĩ thêm từng loại thuốc]" style="text;html=1;fontSize=8;fontStyle=1;fontColor=#0000ee;align=left;" vertex="1" parent="1"><mxGeometry x="135" y="452" width="170" height="14" as="geometry"/></mxCell>
+    <mxCell id="FO" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=18;fontSize=9;fontStyle=1;fillColor=none;" vertex="1" parent="1"><mxGeometry x="80" y="706" width="557" height="84" as="geometry"/></mxCell>
+    <mxCell id="FOt" value="[hướng dẫn đặc biệt]" style="text;html=1;fontSize=8;fontStyle=1;fontColor=#0000ee;align=left;" vertex="1" parent="1"><mxGeometry x="135" y="706" width="150" height="14" as="geometry"/></mxCell>
+
+    <!-- Thanh tiêu đề các bước (đường đôi) -->
+    <mxCell id="DV1" style="shape=link;html=1;endArrow=none;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="75" y="107" as="sourcePoint"/><mxPoint x="890" y="107" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="DV1t" value="Bước 1: Tạo phiếu khám" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=9;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="407" y="100" width="150" height="14" as="geometry"/></mxCell>
+    <mxCell id="DV2" style="shape=link;html=1;endArrow=none;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="75" y="223" as="sourcePoint"/><mxPoint x="890" y="223" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="DV2t" value="Bước 2: Ghi nhận triệu chứng" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=9;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="392" y="216" width="180" height="14" as="geometry"/></mxCell>
+    <mxCell id="DV3" style="shape=link;html=1;endArrow=none;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="75" y="318" as="sourcePoint"/><mxPoint x="890" y="318" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="DV3t" value="Bước 3: Bắt đầu lập toa thuốc" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=9;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="390" y="311" width="185" height="14" as="geometry"/></mxCell>
+    <mxCell id="DV4" style="shape=link;html=1;endArrow=none;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="75" y="433" as="sourcePoint"/><mxPoint x="890" y="433" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="DV4t" value="Bước 4: Thêm thuốc (lập cho từng loại thuốc)" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=9;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="347" y="426" width="270" height="14" as="geometry"/></mxCell>
+    <mxCell id="DV5" style="shape=link;html=1;endArrow=none;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="75" y="688" as="sourcePoint"/><mxPoint x="890" y="688" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="DV5t" value="Bước 5: Ghi chú thêm (nếu có)" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=9;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="390" y="681" width="185" height="14" as="geometry"/></mxCell>
+    <mxCell id="DV6" style="shape=link;html=1;endArrow=none;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="75" y="815" as="sourcePoint"/><mxPoint x="890" y="815" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="DV6t" value="Bước 6: Xác nhận toa thuốc" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=9;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="397" y="808" width="170" height="14" as="geometry"/></mxCell>
+    <mxCell id="DV7" style="shape=link;html=1;endArrow=none;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="75" y="931" as="sourcePoint"/><mxPoint x="890" y="931" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="DV7t" value="Bước 7: Cập nhật hồ sơ bệnh án" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=9;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="387" y="924" width="190" height="14" as="geometry"/></mxCell>
+    <mxCell id="DV8" style="shape=link;html=1;endArrow=none;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="75" y="1047" as="sourcePoint"/><mxPoint x="890" y="1047" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="DV8t" value="Bước 8: In toa thuốc" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=9;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="417" y="1040" width="130" height="14" as="geometry"/></mxCell>
+
+    <!-- ===== BƯỚC 1 ===== -->
+    <mxCell id="m1" value="Chọn bệnh nhân và mở phiếu khám" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="90" y="138" as="sourcePoint"/><mxPoint x="293" y="138" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m2" value="taoPhieuKham(maBenhNhan, maBacSi, maKhoa)" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="293" y="159" as="sourcePoint"/><mxPoint x="541" y="159" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m3" value="Phiếu khám tạo thành công (maPhieuKham)" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="541" y="180" as="sourcePoint"/><mxPoint x="293" y="180" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m4" value="Hiển thị form khám bệnh" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="293" y="201" as="sourcePoint"/><mxPoint x="90" y="201" as="targetPoint"/></mxGeometry></mxCell>
+
+    <!-- ===== BƯỚC 2 ===== -->
+    <mxCell id="m5" value="Nhập triệu chứng, nhiệt độ, huyết áp" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="90" y="254" as="sourcePoint"/><mxPoint x="293" y="254" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m6" value="ghiTrieuChung(trieuChung, nhietDo, huyetAp)" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="293" y="275" as="sourcePoint"/><mxPoint x="541" y="275" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m7" value="Lưu thành công" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="541" y="296" as="sourcePoint"/><mxPoint x="293" y="296" as="targetPoint"/></mxGeometry></mxCell>
+
+    <!-- ===== BƯỚC 3 ===== -->
+    <mxCell id="m8" value="Nhấn nút &quot;Lập toa thuốc&quot;" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="90" y="349" as="sourcePoint"/><mxPoint x="293" y="349" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m9" value="lapToaThuoc(maPhieuKham, maBacSi)" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="293" y="370" as="sourcePoint"/><mxPoint x="626" y="370" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m10" value="Toa thuốc khởi tạo (maToaThuoc)" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="626" y="391" as="sourcePoint"/><mxPoint x="293" y="391" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m11" value="Hiển thị form toa thuốc" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="293" y="412" as="sourcePoint"/><mxPoint x="90" y="412" as="targetPoint"/></mxGeometry></mxCell>
+
+    <!-- ===== BƯỚC 4 (loop) ===== -->
+    <mxCell id="m12" value="Nhập tên thuốc cần tìm" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="90" y="487" as="sourcePoint"/><mxPoint x="293" y="487" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m13" value="timKiemThuoc(tuKhoa)" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="293" y="508" as="sourcePoint"/><mxPoint x="785" y="508" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m14" value="Danh sách thuốc phù hợp" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="785" y="529" as="sourcePoint"/><mxPoint x="293" y="529" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m15" value="Hiển thị danh sách gợi ý" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="293" y="550" as="sourcePoint"/><mxPoint x="90" y="550" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m16" value="Chọn thuốc + nhập số lượng&lt;br&gt;+ liều lượng + cách dùng" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="90" y="582" as="sourcePoint"/><mxPoint x="293" y="582" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m17" value="themThuoc(maToaThuoc, maThuoc,&lt;br&gt;soLuong, lieuLuong, cachDung)" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="293" y="614" as="sourcePoint"/><mxPoint x="710" y="614" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m18" value="Thêm thành công" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="710" y="635" as="sourcePoint"/><mxPoint x="293" y="635" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m19" value="Thuốc đã được thêm vào toa" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="293" y="656" as="sourcePoint"/><mxPoint x="90" y="656" as="targetPoint"/></mxGeometry></mxCell>
+
+    <!-- ===== BƯỚC 5 (opt) ===== -->
+    <mxCell id="m20" value="Nhập ghi chú (kiêng ăn, lưu ý dị ứng...)" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="90" y="742" as="sourcePoint"/><mxPoint x="293" y="742" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m21" value="capNhatGhiChu(ghiChu)" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="293" y="763" as="sourcePoint"/><mxPoint x="626" y="763" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m22" value="Cập nhật thành công" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="626" y="784" as="sourcePoint"/><mxPoint x="293" y="784" as="targetPoint"/></mxGeometry></mxCell>
+
+    <!-- ===== BƯỚC 6 ===== -->
+    <mxCell id="m23" value="Nhấn &quot;Xác nhận &amp;amp; Lưu toa&quot;" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="90" y="846" as="sourcePoint"/><mxPoint x="293" y="846" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m24" value="xacNhanToa()" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="293" y="867" as="sourcePoint"/><mxPoint x="626" y="867" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m25" value="Toa thuốc đã được lưu chính thức" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="626" y="888" as="sourcePoint"/><mxPoint x="293" y="888" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m26" value="Thông báo lưu thành công" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="293" y="909" as="sourcePoint"/><mxPoint x="90" y="909" as="targetPoint"/></mxGeometry></mxCell>
+
+    <!-- ===== BƯỚC 7 ===== -->
+    <mxCell id="m27" value="hoanTatKham(maPhieuKham)" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="293" y="962" as="sourcePoint"/><mxPoint x="541" y="962" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m28" value="capNhatHoSo(maPhieuKham, maToaThuoc)" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="541" y="983" as="sourcePoint"/><mxPoint x="850" y="983" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m29" value="Hồ sơ cập nhật thành công" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="850" y="1004" as="sourcePoint"/><mxPoint x="541" y="1004" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m30" value="OK" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="541" y="1025" as="sourcePoint"/><mxPoint x="293" y="1025" as="targetPoint"/></mxGeometry></mxCell>
+
+    <!-- ===== BƯỚC 8 ===== -->
+    <mxCell id="m31" value="Nhấn &quot;In toa thuốc&quot;" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="90" y="1078" as="sourcePoint"/><mxPoint x="293" y="1078" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m32" value="inToaThuoc(maToaThuoc)" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="293" y="1099" as="sourcePoint"/><mxPoint x="626" y="1099" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m33" value="Dữ liệu toa thuốc đầy đủ" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="626" y="1120" as="sourcePoint"/><mxPoint x="293" y="1120" as="targetPoint"/></mxGeometry></mxCell>
+    <mxCell id="m34" value="[Bản in toa thuốc giao cho bệnh nhân]" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;fontSize=9;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="293" y="1141" as="sourcePoint"/><mxPoint x="90" y="1141" as="targetPoint"/></mxGeometry></mxCell>
+  </root>
+</mxGraphModel>
