@@ -1,0 +1,53 @@
+<mxGraphModel dx="1704" dy="977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="Pkg_UI" parent="1" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;fillColor=none;align=left;spacingLeft=5;labelBackgroundColor=none;" value="UI (WinForms)" vertex="1">
+      <mxGeometry height="120" width="260" x="320" y="40" as="geometry" />
+    </mxCell>
+    <mxCell id="Class_UI" parent="Pkg_UI" style="swimlane;fontStyle=0;horizontal=1;startSize=40;collapsible=0;html=1;whiteSpace=wrap;fillColor=none;swimlaneLine=1;align=left;labelBackgroundColor=none;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;margin-left:5px;&quot;&gt;&lt;tr&gt;&lt;td valign=&quot;middle&quot;&gt;&lt;div style=&quot;background-color:#215e39; border:2px solid #5ab079; border-radius:50%; width:20px; height:20px; display:flex; align-items:center; justify-content:center; color:white; font-weight:bold; font-size:12px;&quot;&gt;C&lt;/div&gt;&lt;/td&gt;&lt;td valign=&quot;middle&quot; style=&quot;padding-left:8px; font-size:14px; color:white;&quot;&gt;frmThanhToan&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+      <mxGeometry height="60" width="220" x="20" y="45" as="geometry" />
+    </mxCell>
+    <mxCell id="Pkg_Service" parent="1" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;fillColor=none;align=left;spacingLeft=5;labelBackgroundColor=none;" value="Service (Logic)" vertex="1">
+      <mxGeometry height="130" width="500" x="240" y="230" as="geometry" />
+    </mxCell>
+    <mxCell id="Class_DH" parent="Pkg_Service" style="swimlane;fontStyle=0;horizontal=1;startSize=40;collapsible=0;html=1;whiteSpace=wrap;fillColor=none;swimlaneLine=1;align=left;labelBackgroundColor=none;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;margin-left:5px;&quot;&gt;&lt;tr&gt;&lt;td valign=&quot;middle&quot;&gt;&lt;div style=&quot;background-color:#215e39; border:2px solid #5ab079; border-radius:50%; width:20px; height:20px; display:flex; align-items:center; justify-content:center; color:white; font-weight:bold; font-size:12px;&quot;&gt;C&lt;/div&gt;&lt;/td&gt;&lt;td valign=&quot;middle&quot; style=&quot;padding-left:8px; font-size:14px; color:white;&quot;&gt;DatHangService&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+      <mxGeometry height="60" width="220" x="20" y="45" as="geometry" />
+    </mxCell>
+    <mxCell id="Class_SP" parent="Pkg_Service" style="swimlane;fontStyle=0;horizontal=1;startSize=40;collapsible=0;html=1;whiteSpace=wrap;fillColor=none;swimlaneLine=1;align=left;labelBackgroundColor=none;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;margin-left:5px;&quot;&gt;&lt;tr&gt;&lt;td valign=&quot;middle&quot;&gt;&lt;div style=&quot;background-color:#215e39; border:2px solid #5ab079; border-radius:50%; width:20px; height:20px; display:flex; align-items:center; justify-content:center; color:white; font-weight:bold; font-size:12px;&quot;&gt;C&lt;/div&gt;&lt;/td&gt;&lt;td valign=&quot;middle&quot; style=&quot;padding-left:8px; font-size:14px; color:white;&quot;&gt;SanPhamService&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+      <mxGeometry height="60" width="220" x="260" y="45" as="geometry" />
+    </mxCell>
+    <mxCell id="Pkg_Data" parent="1" style="shape=folder;fontStyle=1;tabWidth=120;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;fillColor=none;align=left;spacingLeft=5;labelBackgroundColor=none;" value="Data (ADO.NET)" vertex="1">
+      <mxGeometry height="130" width="280" x="60" y="440" as="geometry" />
+    </mxCell>
+    <mxCell id="Class_Repo" parent="Pkg_Data" style="swimlane;fontStyle=0;horizontal=1;startSize=40;collapsible=0;html=1;whiteSpace=wrap;fillColor=none;swimlaneLine=1;align=left;labelBackgroundColor=none;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;margin-left:5px;&quot;&gt;&lt;tr&gt;&lt;td valign=&quot;middle&quot;&gt;&lt;div style=&quot;background-color:#215e39; border:2px solid #5ab079; border-radius:50%; width:20px; height:20px; display:flex; align-items:center; justify-content:center; color:white; font-weight:bold; font-size:12px;&quot;&gt;C&lt;/div&gt;&lt;/td&gt;&lt;td valign=&quot;middle&quot; style=&quot;padding-left:8px; font-size:14px; color:white;&quot;&gt;SqlThanhToanRepo&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+      <mxGeometry height="60" width="240" x="20" y="45" as="geometry" />
+    </mxCell>
+    <mxCell id="Pkg_Adapter" parent="1" style="shape=folder;fontStyle=1;tabWidth=130;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;fillColor=none;align=left;spacingLeft=5;labelBackgroundColor=none;" value="Adapter (External)" vertex="1">
+      <mxGeometry height="130" width="500" x="360" y="440" as="geometry" />
+    </mxCell>
+    <mxCell id="Class_PG" parent="Pkg_Adapter" style="swimlane;fontStyle=0;horizontal=1;startSize=40;collapsible=0;html=1;whiteSpace=wrap;fillColor=none;swimlaneLine=1;align=left;labelBackgroundColor=none;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;margin-left:5px;&quot;&gt;&lt;tr&gt;&lt;td valign=&quot;middle&quot;&gt;&lt;div style=&quot;background-color:#215e39; border:2px solid #5ab079; border-radius:50%; width:20px; height:20px; display:flex; align-items:center; justify-content:center; color:white; font-weight:bold; font-size:12px;&quot;&gt;C&lt;/div&gt;&lt;/td&gt;&lt;td valign=&quot;middle&quot; style=&quot;padding-left:8px; font-size:14px; color:white;&quot;&gt;PaymentGatewayAdapter&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+      <mxGeometry height="60" width="220" x="20" y="45" as="geometry" />
+    </mxCell>
+    <mxCell id="Class_HQL" parent="Pkg_Adapter" style="swimlane;fontStyle=0;horizontal=1;startSize=40;collapsible=0;html=1;whiteSpace=wrap;fillColor=none;swimlaneLine=1;align=left;labelBackgroundColor=none;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;margin-left:5px;&quot;&gt;&lt;tr&gt;&lt;td valign=&quot;middle&quot;&gt;&lt;div style=&quot;background-color:#215e39; border:2px solid #5ab079; border-radius:50%; width:20px; height:20px; display:flex; align-items:center; justify-content:center; color:white; font-weight:bold; font-size:12px;&quot;&gt;C&lt;/div&gt;&lt;/td&gt;&lt;td valign=&quot;middle&quot; style=&quot;padding-left:8px; font-size:14px; color:white;&quot;&gt;HQLSPAdapter&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+      <mxGeometry height="60" width="220" x="260" y="45" as="geometry" />
+    </mxCell>
+    <mxCell id="e1" edge="1" parent="1" source="Class_UI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endSize=8;labelBackgroundColor=none;fontColor=default;" target="Pkg_Service">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="450" y="150" />
+          <mxPoint x="450" y="230" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="e2" edge="1" parent="1" source="Class_DH" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;endArrow=open;endSize=8;exitX=0.25;exitY=1;entryX=0.5;entryY=0;labelBackgroundColor=none;fontColor=default;" target="Class_Repo">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e3" edge="1" parent="1" source="Class_DH" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;endArrow=open;endSize=8;exitX=0.75;exitY=1;entryX=0.5;entryY=0;labelBackgroundColor=none;fontColor=default;" target="Class_PG">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e4" edge="1" parent="1" source="Class_SP" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;endArrow=open;endSize=8;exitX=0.5;exitY=1;entryX=0.5;entryY=0;labelBackgroundColor=none;fontColor=default;" target="Class_HQL">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>
