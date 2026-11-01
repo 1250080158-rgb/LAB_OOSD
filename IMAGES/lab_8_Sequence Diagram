@@ -1,0 +1,220 @@
+<mxGraphModel dx="2850" dy="1340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="Start" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+      <mxGeometry height="30" width="30" x="465" y="40" as="geometry" />
+    </mxCell>
+    <mxCell id="A1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;" value="Khách đặt mua danh sách NGK" vertex="1">
+      <mxGeometry height="40" width="200" x="380" y="110" as="geometry" />
+    </mxCell>
+    <mxCell id="A2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;" value="Nhân viên kiểm tra tồn kho&lt;br&gt;từng mặt hàng trong kho" vertex="1">
+      <mxGeometry height="50" width="200" x="380" y="190" as="geometry" />
+    </mxCell>
+    <mxCell id="D1" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Kho đủ hàng?" vertex="1">
+      <mxGeometry height="70" width="140" x="410" y="280" as="geometry" />
+    </mxCell>
+    <mxCell id="A3_L" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;" value="Lập hóa đơn" vertex="1">
+      <mxGeometry height="40" width="120" x="140" y="360" as="geometry" />
+    </mxCell>
+    <mxCell id="D2_L" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Khách quen và&lt;br&gt;không thanh toán đủ?" vertex="1">
+      <mxGeometry height="80" width="160" x="120" y="440" as="geometry" />
+    </mxCell>
+    <mxCell id="A4_L1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;" value="Lập phiếu ghi nợ (trả chậm)" vertex="1">
+      <mxGeometry height="40" width="170" x="10" y="540" as="geometry" />
+    </mxCell>
+    <mxCell id="M1_L" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+      <mxGeometry height="40" width="40" x="180" y="620" as="geometry" />
+    </mxCell>
+    <mxCell id="A5_L" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;" value="Giao hàng ngay kèm hóa đơn" vertex="1">
+      <mxGeometry height="40" width="200" x="100" y="700" as="geometry" />
+    </mxCell>
+    <mxCell id="D3_R" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Khách là khách quen?" vertex="1">
+      <mxGeometry height="70" width="160" x="610" y="280" as="geometry" />
+    </mxCell>
+    <mxCell id="A6_M" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;" value="Lập hóa đơn cho toàn bộ danh sách" vertex="1">
+      <mxGeometry height="40" width="220" x="450" y="380" as="geometry" />
+    </mxCell>
+    <mxCell id="A7_M" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;" value="Lập phiếu hẹn giao hàng&lt;br&gt;(chia nhiều đợt, ghi ngày hẹn)" vertex="1">
+      <mxGeometry height="50" width="220" x="450" y="460" as="geometry" />
+    </mxCell>
+    <mxCell id="M2_M" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+      <mxGeometry height="40" width="40" x="540" y="550" as="geometry" />
+    </mxCell>
+    <mxCell id="A8_M" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;" value="Đợi đợt giao hàng từ nhà cung ứng&lt;br&gt;cập nhật tồn kho" vertex="1">
+      <mxGeometry height="50" width="220" x="450" y="630" as="geometry" />
+    </mxCell>
+    <mxCell id="A9_M" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;" value="Giao 1 đợt hàng theo phiếu hẹn" vertex="1">
+      <mxGeometry height="40" width="220" x="450" y="720" as="geometry" />
+    </mxCell>
+    <mxCell id="A10_M" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;" value="Cập nhật số lượng còn lại&lt;br&gt;trên phiếu hẹn" vertex="1">
+      <mxGeometry height="50" width="220" x="450" y="800" as="geometry" />
+    </mxCell>
+    <mxCell id="D4_M" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Vẫn còn thiếu hàng?" vertex="1">
+      <mxGeometry height="70" width="160" x="480" y="890" as="geometry" />
+    </mxCell>
+    <mxCell id="A11_M" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;" value="Đánh dấu phiếu hẹn: GIAO ĐỦ" vertex="1">
+      <mxGeometry height="40" width="200" x="460" y="1000" as="geometry" />
+    </mxCell>
+    <mxCell id="A12_R" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;" value="Chỉ bán phần có trong kho" vertex="1">
+      <mxGeometry height="40" width="180" x="840" y="380" as="geometry" />
+    </mxCell>
+    <mxCell id="A13_R" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;" value="Lập hóa đơn cho phần có" vertex="1">
+      <mxGeometry height="40" width="180" x="840" y="460" as="geometry" />
+    </mxCell>
+    <mxCell id="A14_R" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;" value="Giao ngay và thông báo phần thiếu" vertex="1">
+      <mxGeometry height="40" width="200" x="830" y="540" as="geometry" />
+    </mxCell>
+    <mxCell id="M3_End" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+      <mxGeometry height="40" width="40" x="540" y="1080" as="geometry" />
+    </mxCell>
+    <mxCell id="A15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;" value="Khách nhận hàng" vertex="1">
+      <mxGeometry height="40" width="160" x="480" y="1160" as="geometry" />
+    </mxCell>
+    <mxCell id="End" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;" value="" vertex="1">
+      <mxGeometry height="30" width="30" x="545" y="1240" as="geometry" />
+    </mxCell>
+    <mxCell id="EndInner" parent="End" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=none;" value="" vertex="1">
+      <mxGeometry height="15" width="15" x="0.25" y="0.25" as="geometry" />
+    </mxCell>
+    <mxCell id="e_start_A1" edge="1" parent="1" source="Start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="A1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e_A1_A2" edge="1" parent="1" source="A1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="A2">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e_A2_D1" edge="1" parent="1" source="A2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="D1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e_D1_A3L" edge="1" parent="1" source="D1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="A3_L">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="l_D1_A3L" edge="1" parent="e_D1_A3L" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="đủ">
+      <mxGeometry relative="1" x="-0.2" as="geometry">
+        <mxPoint y="-10" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="e_A3L_D2L" edge="1" parent="1" source="A3_L" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="D2_L">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e_D2L_A4L1" edge="1" parent="1" source="D2_L" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="A4_L1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="l_D2L_A4L1" edge="1" parent="e_D2L_A4L1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="có">
+      <mxGeometry relative="1" x="-0.3" as="geometry">
+        <mxPoint y="-10" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="e_A4L1_M1L" edge="1" parent="1" source="A4_L1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0;entryY=0.5;" target="M1_L">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="95" y="640" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="e_D2L_M1L" edge="1" parent="1" source="D2_L" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="M1_L">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e_M1L_A5L" edge="1" parent="1" source="M1_L" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="A5_L">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e_D1_D3R" edge="1" parent="1" source="D1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="D3_R">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="l_D1_D3R" edge="1" parent="e_D1_D3R" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="thiếu">
+      <mxGeometry relative="1" x="-0.2" as="geometry">
+        <mxPoint y="-10" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="e_D3R_A6M" edge="1" parent="1" source="D3_R" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;entryX=0.5;entryY=0;" target="A6_M">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="560" y="315" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="l_D3R_A6M" edge="1" parent="e_D3R_A6M" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="có">
+      <mxGeometry relative="1" x="-0.5" as="geometry">
+        <mxPoint y="-10" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="e_A6M_A7M" edge="1" parent="1" source="A6_M" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="A7_M">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e_A7M_M2M" edge="1" parent="1" source="A7_M" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="M2_M">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e_M2M_A8M" edge="1" parent="1" source="M2_M" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="A8_M">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e_A8M_A9M" edge="1" parent="1" source="A8_M" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e_A8M_A9M_fix" edge="1" parent="1" source="A8_M" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="A9_M">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e_A9M_A10M" edge="1" parent="1" source="A9_M" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="A10_M">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e_A10M_D4M" edge="1" parent="1" source="A10_M" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="D4_M">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e_D4M_M2M" edge="1" parent="1" source="D4_M" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" target="M2_M">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="720" y="925" />
+          <mxPoint x="720" y="570" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="l_D4M_M2M" edge="1" parent="e_D4M_M2M" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="thiếu">
+      <mxGeometry relative="1" x="-0.85" as="geometry">
+        <mxPoint y="-10" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="e_D4M_A11M" edge="1" parent="1" source="D4_M" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="A11_M">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e_D3R_A12R" edge="1" parent="1" source="D3_R" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;" target="A12_R">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="930" y="315" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="l_D3R_A12R" edge="1" parent="e_D3R_A12R" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="vãng lai">
+      <mxGeometry relative="1" x="-0.5" as="geometry">
+        <mxPoint y="-10" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="e_A12R_A13R" edge="1" parent="1" source="A12_R" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="A13_R">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e_A13R_A14R" edge="1" parent="1" source="A13_R" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="A14_R">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e_A5L_M3End" edge="1" parent="1" source="A5_L" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" target="M3_End">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="200" y="1100" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="e_A11M_M3End" edge="1" parent="1" source="A11_M" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="M3_End">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e_A14R_M3End" edge="1" parent="1" source="A14_R" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=1;entryY=0.5;" target="M3_End">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="930" y="1100" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="e_M3End_A15" edge="1" parent="1" source="M3_End" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="A15">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e_A15_End" edge="1" parent="1" source="A15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="End">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>
