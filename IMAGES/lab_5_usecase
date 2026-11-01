@@ -1,0 +1,63 @@
+<mxGraphModel dx="1400" dy="1400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1500" math="0" shadow="0">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+
+    <mxCell id="sys" value="Hệ thống Quản lý Du lịch Văn Hóa Việt" style="rounded=1;arcSize=1;verticalAlign=top;fontStyle=1;fontSize=13;fillColor=none;html=1;" vertex="1" parent="1"><mxGeometry x="234" y="110" width="663" height="1270" as="geometry"/></mxCell>
+
+    <mxCell id="p1" value="Tra cứu &amp; Website" style="rounded=1;arcSize=2;verticalAlign=top;fontStyle=1;fontSize=12;fillColor=none;html=1;" vertex="1" parent="1"><mxGeometry x="295" y="153" width="262" height="178" as="geometry"/></mxCell>
+    <mxCell id="p2" value="Đăng ký &amp; Bán vé" style="rounded=1;arcSize=2;verticalAlign=top;fontStyle=1;fontSize=12;fillColor=none;html=1;" vertex="1" parent="1"><mxGeometry x="301" y="356" width="572" height="263" as="geometry"/></mxCell>
+    <mxCell id="p3" value="Quản lý Danh mục &amp; Lộ trình" style="rounded=1;arcSize=2;verticalAlign=top;fontStyle=1;fontSize=12;fillColor=none;html=1;" vertex="1" parent="1"><mxGeometry x="259" y="644" width="334" height="363" as="geometry"/></mxCell>
+    <mxCell id="p4" value="Điều hành &amp; Nhân sự" style="rounded=1;arcSize=2;verticalAlign=top;fontStyle=1;fontSize=12;fillColor=none;html=1;" vertex="1" parent="1"><mxGeometry x="304" y="1033" width="244" height="322" as="geometry"/></mxCell>
+
+    <mxCell id="U1" value="Xem thông tin &amp; lộ trình tour" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="311" y="188" width="230" height="52" as="geometry"/></mxCell>
+    <mxCell id="U2" value="Gửi ý kiến khảo sát" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="342" y="270" width="168" height="50" as="geometry"/></mxCell>
+    <mxCell id="U3" value="Mua vé tour theo chuyến" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="323" y="390" width="205" height="48" as="geometry"/></mxCell>
+    <mxCell id="U4" value="Thu tiền đặt cọc" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="707" y="407" width="150" height="48" as="geometry"/></mxCell>
+    <mxCell id="U5" value="Đăng ký tour theo đoàn" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="328" y="471" width="196" height="48" as="geometry"/></mxCell>
+    <mxCell id="U6" value="Thanh toán kinh phí còn lại" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="316" y="552" width="220" height="50" as="geometry"/></mxCell>
+    <mxCell id="U7" value="Quản lý điểm tham quan" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="327" y="677" width="200" height="48" as="geometry"/></mxCell>
+    <mxCell id="U8" value="Mở chuyến du lịch (khách lẻ)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="309" y="760" width="232" height="50" as="geometry"/></mxCell>
+    <mxCell id="U9" value="Quản lý thông tin Tour" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="331" y="844" width="190" height="48" as="geometry"/></mxCell>
+    <mxCell id="U10" value="Quản lý điểm dừng chân &amp; phương tiện" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="274" y="926" width="302" height="64" as="geometry"/></mxCell>
+    <mxCell id="U11" value="Tính lương HDV" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="353" y="1068" width="146" height="36" as="geometry"/></mxCell>
+    <mxCell id="U12" value="Phân công HDV du lịch" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="331" y="1137" width="190" height="46" as="geometry"/></mxCell>
+    <mxCell id="U13" value="Tổng hợp ý kiến đóng góp" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="321" y="1216" width="210" height="48" as="geometry"/></mxCell>
+    <mxCell id="U14" value="Xem lịch dẫn tour" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f1f1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="346" y="1296" width="160" height="46" as="geometry"/></mxCell>
+
+    <mxCell id="A1" value="Khách lẻ" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1"><mxGeometry x="92" y="18" width="26" height="52" as="geometry"/></mxCell>
+    <mxCell id="A2" value="Nhân viên Bán vé" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1"><mxGeometry x="92" y="188" width="26" height="52" as="geometry"/></mxCell>
+    <mxCell id="A3" value="Khách đoàn" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1"><mxGeometry x="92" y="315" width="26" height="52" as="geometry"/></mxCell>
+    <mxCell id="A4" value="Kế toán" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1"><mxGeometry x="92" y="594" width="26" height="52" as="geometry"/></mxCell>
+    <mxCell id="A5" value="Người Điều hành" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1"><mxGeometry x="92" y="876" width="26" height="52" as="geometry"/></mxCell>
+    <mxCell id="A6" value="Hướng dẫn viên (HDV)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1"><mxGeometry x="92" y="1282" width="26" height="52" as="geometry"/></mxCell>
+
+    <!-- Khách lẻ -->
+    <mxCell id="e1" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A1" target="U1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e2" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A1" target="U2"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e3" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A1" target="U3"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <!-- Nhân viên Bán vé -->
+    <mxCell id="e4" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A2" target="U4"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e5" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A2" target="U3"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e6" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A2" target="U5"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <!-- Khách đoàn -->
+    <mxCell id="e7" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A3" target="U1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e8" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A3" target="U2"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e9" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A3" target="U5"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <!-- Kế toán -->
+    <mxCell id="e10" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A4" target="U6"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e11" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A4" target="U11"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <!-- Người Điều hành -->
+    <mxCell id="e12" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A5" target="U7"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e13" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A5" target="U8"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e14" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A5" target="U9"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e15" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A5" target="U10"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e16" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A5" target="U12"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e17" style="curved=1;endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A5" target="U13"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <!-- HDV -->
+    <mxCell id="e18" style="endArrow=open;endFill=0;endSize=10;html=1;" edge="1" parent="1" source="A6" target="U14"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- include -->
+    <mxCell id="i1" value="«include»" style="curved=1;endArrow=open;endFill=0;endSize=10;dashed=1;html=1;fontSize=10;" edge="1" parent="1" source="U5" target="U4"><mxGeometry relative="1" as="geometry"/></mxCell>
+  </root>
+</mxGraphModel>
